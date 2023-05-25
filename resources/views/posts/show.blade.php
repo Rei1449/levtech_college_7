@@ -12,6 +12,7 @@
                 <a href='/'><h2 class='title'>{{ $post->title }}</h2></a>
                 <p class='body'>{{ $post->body }}</p>
             </div>
+            <div class="edit"><a href="/posts/{{ $post->id }}/edit">edit</a></div>
         </div>
     </body>
 </html>
